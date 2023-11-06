@@ -8,9 +8,19 @@ span{
 }
 #a1{
   background-color: rgb(154, 109, 206) ;
-  width: 150px;
+  width: 200px;
   height: 150px;
   padding: 5;
   color: black;
   
+}
+#a2{
+  width: 30%;
+  height: 50px;
+  margin-left: 55px;
+}
+#a3{
+  width: 550px;
+  height: 360px;
+  background-color: rgb(188, 183, 196);
 }

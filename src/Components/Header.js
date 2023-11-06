@@ -7,6 +7,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Dropdown from 'react-bootstrap/Dropdown';
 import NavItem from 'react-bootstrap/NavItem';
 import NavLink from 'react-bootstrap/NavLink';
+import { Link } from 'react-router-dom';
+
 
 
 const Header = () => {
@@ -22,8 +24,10 @@ const Header = () => {
                             <Dropdown.Item>Applied jobs</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
-                    <Navbar.Brand className='mt-1 p-2 text-white' href="#"><h1><b>J</b>ob <b>H</b>unt</h1></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+<Link to='/'>
+                        <Navbar.Brand className='mt-1 p-2 text-white' href="#"><h1><b>J</b>ob <b>H</b>unt</h1></Navbar.Brand>
+    
+</Link>                    <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="me-auto my-2 my-lg-0"

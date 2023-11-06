@@ -19,7 +19,7 @@ function LandingPage() {
                         </div>
                     </Col>
 
-                    <Col>
+                    <Col >
                     <img className='w-100' style={{height:'350px'}} src="https://i.postimg.cc/pTjNjgsx/Pngtree-recruiting-looking-for-cattle-to-4544105.png" alt="" />
 
                     </Col>
