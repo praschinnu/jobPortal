@@ -10,7 +10,7 @@ function LandingPage() {
 
             <Container>
                 <Row className='mt-5'>
-                    <Col>
+                    <Col lg={6} md={12} xs={12} sm={12}>
                         <div className='mt-4'>
                             <h1> <span>O</span>ne <span>S</span>tep <br /> <span>C</span>loser <span>T</span>o<span> Y</span>our 
                                 <br /><span>Dream Job</span></h1>
@@ -19,7 +19,7 @@ function LandingPage() {
                         </div>
                     </Col>
 
-                    <Col >
+                    <Col lg={6} md={12} xs={12} sm={12}>
                     <img className='w-100' style={{height:'350px'}} src="https://i.postimg.cc/pTjNjgsx/Pngtree-recruiting-looking-for-cattle-to-4544105.png" alt="" />
 
                     </Col>

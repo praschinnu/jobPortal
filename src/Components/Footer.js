@@ -16,14 +16,14 @@ function Footer() {
           </i>
 
         </Col>
-        <Col>
+        <Col lg={3} md={6} sm={12} xs={12}>
           <u className='text-primary'> Helpfull Links</u><br />
           <a style={{ textDecoration: 'none', color: 'white' }} href="">Contact</a><br />
           <a style={{ textDecoration: 'none', color: 'white' }} href="">FAQs</a><br />
           <a style={{ textDecoration: 'none', color: 'white' }} href="">Live Chat</a><br />
 
         </Col>
-        <Col>
+        <Col lg={3} md={6} sm={12} xs={12}>
           <p className='text-primary'>Services</p>
           <p className='text-white'>Company Reviews</p>
           <p className='text-white'>Accounts Reviews</p>
@@ -31,7 +31,7 @@ function Footer() {
           <p className='text-white'>SEO Optimisation</p>
 
         </Col>
-        <Col>
+        <Col lg={3} md={6} sm={12} xs={12}>
           <b className='text-primary'>Contact Us</b>
 <input type="text" className='form-control-primary w-75 ' placeholder='enter email' />
           <button className='btn btn-dark mt-2 w-75'>send</button> <br />
